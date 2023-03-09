@@ -63,7 +63,7 @@ const App = () => {
       <Filter onFilterContacts={onFilterContacts} />
       <h2>Contacts</h2>
       {contacts.length === 0 ? (
-        <i>-- no contacts here --</i>
+        <i> No contacts here </i>
       ) : (
         <ContactList
           contacts={filteredContacts}
