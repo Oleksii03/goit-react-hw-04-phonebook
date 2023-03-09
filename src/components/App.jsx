@@ -47,13 +47,12 @@ const App = () => {
   return (
     <div
       style={{
-        marginLeft: '20px',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'flex-start',
+        alignItems: 'center',
         fontSize: 30,
-        color: '#010101',
+        color: '#000',
       }}
     >
       <h2>Phonebook</h2>

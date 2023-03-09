@@ -5,13 +5,20 @@ export const StyledLabel = styled.label`
   gap: 10px;
   flex-direction: column;
 
-  width: 200px;
-
+  width: 450px;
   padding: 20px;
 
-  border: 1px solid black;
+  border: 3px solid #006400;
   border-radius: 5px;
 
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
+  background-color: #00FFFF;
+
+  input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
 `;

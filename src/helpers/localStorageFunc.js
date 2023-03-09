@@ -1,4 +1,3 @@
-// try/catch
 export function settingItem(key, value) {
   try {
     const serializedState = JSON.stringify(value);
@@ -15,4 +14,4 @@ export function gettingItem(key) {
   } catch (error) {
     console.log('Everyone makes mistakes, this is yours:', error.message);
   }
-}
+};

@@ -2,23 +2,26 @@ import styled from 'styled-components';
 
 export const StyledLi = styled.li`
   display: flex;
-  /* justify-content: center; */
+  justify-content: center; 
   align-items: center;
+  margin-bottom: 20px;
 
-  padding: 20px;
-
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
 
   & button {
     margin-left: 10px;
-
-    &:focus {
-      background-color: #c7dcff;
-    }
-
-    &:hover {
-      background-color: #c7dcff;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00FFFF;
+      
+    &:hover, &:focus {
+      background-color: #006400;
+      color: #fff;
     }
   }
 `;

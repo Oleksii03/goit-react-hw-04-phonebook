@@ -2,37 +2,50 @@ import styled from 'styled-components';
 
 export const StyledForm = styled.form`
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-direction: column;
 
-  width: 200px;
-
+  width: 450px;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
-  border: 1px solid black;
+  border: 3px solid #006400;
+  background-color: #00FFFF;
   border-radius: 5px;
 
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 600;
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    input {
+      width: 100%;
+      padding: 8px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+    }
+  }
 `;
 
 export const StyledBtn = styled.button`
-  width: 170px;
-  height: 30px;
-  padding: 0;
-  margin: 0;
-
-  border: 1px solid black;
+  padding: 10px 25px;
+  margin: 0 auto;
+  background-color: #006400;
+  color: #fff;
+  font-size: 20px;
   border-radius: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
 
-  &:focus {
-    background-color: #c7dcff;
-    border-radius: 5px;
-  }
-
-  &:hover {
-    background-color: #c7dcff;
-    border-radius: 5px;
+  &:hover, &:focus {
+  outline: 2px solid #006400;
+  background-color: #00FFFF;
+  color: #000;
   }
 `;
